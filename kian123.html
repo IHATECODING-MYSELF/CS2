@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+<title>Registration Form</title>
+</head>
+<style>
+</style>
+<body>
+    <!-- this is a form where you can input your data and retriev it -->
+    <form action ="kian1234.php" method="post">
+    <!-- this is where you input your username--> 
+    <div id="form">
+        <div id="name">
+        <label for="Fname"> First Name</label><br>
+        <input type="text" id="Fname" name="Fname" required><br><br>
+        </div>
+    
+    <!-- this is where you input your age-->
+        <div id="age">
+        <label for="age"> Age</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+
+    <!-- this is where you select your gender-->
+        <div id="name">
+        <label for="gender"> Gender</label><br>
+        <select id ="gender" name="gender" required>
+        <option selectd value="">Select Your Gender</option>   
+        <option value="Male">Male</option>
+        <option value="Female"> Female</option>
+        <option value="Other"> Other</option>
+        </select><br><br>
+
+    </div>
+    
+    <!-- this is where you put your quotes-->
+    <div id ="Quote">
+        <label for="Quote"> Your Favorite Quote</label><br>
+        <textarea id="Quote" name="Quote" rows="4" cols="50" required></textarea><br>
+    </div>
+    <!--this is the submit button-->
+         <button type="submit"> Submit</button>
+    </div>
+</div> 
+</form>
+</body>
+</html>   
